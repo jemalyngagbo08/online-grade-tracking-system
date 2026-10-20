@@ -1,0 +1,120 @@
+html,
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+img,
+video,
+iframe {
+	max-width: 100%;
+}
+
+.student-portal-main,
+.admin-responsive-content {
+	min-width: 0;
+	width: 100%;
+}
+
+.student-portal-main table,
+.admin-responsive-content table {
+	max-width: 100%;
+}
+
+.admin-responsive-content .dataTables_wrapper {
+	max-width: 100%;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.admin-responsive-content .dataTables_wrapper table.dataTable {
+	min-width: 600px;
+}
+
+.student-login-page .ftco-cover-1 {
+	background-position: center;
+	background-size: cover;
+}
+
+@media (max-width: 991.98px) {
+	.student-portal-main,
+	.admin-responsive-content {
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	.admin-responsive-content .dataTables_length,
+	.admin-responsive-content .dataTables_filter {
+		float: none;
+		margin: 0 0 12px;
+		text-align: left;
+	}
+
+	.student-login-page .ftco-cover-1 h1 {
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.student-portal-main .container,
+	.admin-responsive-content .container {
+		width: 100%;
+		max-width: 100%;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+	.student-portal-main table {
+		display: block;
+		width: 100%;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	.student-portal-main table th,
+	.student-portal-main table td {
+		white-space: nowrap;
+	}
+
+	.admin-responsive-content .form-control,
+	.admin-responsive-content select,
+	.admin-responsive-content textarea {
+		max-width: 100%;
+	}
+
+	.admin-responsive-content .btn {
+		margin-bottom: 6px;
+		white-space: normal;
+	}
+
+	.admin-responsive-content .dataTables_wrapper .dataTables_paginate {
+		float: none;
+		overflow-x: auto;
+		text-align: left;
+		white-space: nowrap;
+	}
+
+	.student-login-page .ftco-cover-1 {
+		padding: 64px 0;
+	}
+
+	.student-login-page .ftco-cover-1 h1 {
+		font-size: 34px;
+		line-height: 1.2;
+	}
+
+	.student-login-page .quick-contact-form {
+		padding: 24px 20px;
+	}
+}
+
+@media (max-width: 420px) {
+	.student-login-page .ftco-cover-1 h1 {
+		font-size: 29px;
+	}
+
+	.admin-responsive-content .dataTables_length select,
+	.admin-responsive-content .dataTables_filter input {
+		max-width: 100%;
+	}
+}

@@ -1,0 +1,14 @@
+# Local database export contains student records and password hashes.
+/dbgrading.sql
+
+# Uploaded student/profile photos and documents.
+/uploads/
+
+# Local secrets, editor files, and runtime logs.
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+.vscode/
+.idea/
